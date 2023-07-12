@@ -9,7 +9,7 @@ class lsb_less{
     }
 };
 int main(){
-    set<int , lsb_less> s = {21,23,47,27,28,30} ;
+    set<int , lsb_less> s = {21,23,26,28,30} ;
 
     set<int , lsb_less>::iterator it1 , it2 ;
     for(auto x : s) cout << x << " " ;
